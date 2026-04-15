@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "title": "CURSOSDEVERAO — Descubra Seu Curso de Verão Ideal",
+    "description": "Encontre cursos que despertam sua paixão e potencial."
+  },
+  "hero": {
+    "title": "Descubra Seu Curso de Verão Ideal",
+    "subtitle": "Encontre cursos que despertam sua paixão e potencial.",
+    "btnText": "Explorar Cursos",
+    "bgImage": "/images/hero.jpg",
+    "btnLink": "/blog"
+  },
+  "features": {
+    "title": "Nossos Diferenciais",
+    "items": [
+      {
+        "icon": "🎓",
+        "title": "Variedade de Cursos",
+        "desc": "Explore uma ampla gama de cursos, desde idiomas até arte e tecnologia."
+      },
+      {
+        "icon": "🌍",
+        "title": "Estudo no Exterior",
+        "desc": "Informações sobre oportunidades de cursos em diversos países para enriquecer sua experiência."
+      },
+      {
+        "icon": "📚",
+        "title": "Facilidade de Navegação",
+        "desc": "Navegue facilmente e encontre o curso que se destaca para você com poucas cliques."
+      },
+      {
+        "icon": "🤝",
+        "title": "Apoio ao Aluno",
+        "desc": "Nossa equipe está pronta para te auxiliar na escolha do curso ideal, tornando sua jornada de aprendizado ainda mais simples."
+      }
+    ]
+  },
+  "about": {
+    "title": "Sobre Nós",
+    "desc": "Nosso objetivo é tornar o aprendizado acessível e divertido para todos. Acreditamos que cada pessoa tem a capacidade de aprender e crescer, e estamos aqui para facilitar esse processo.",
+    "stats": [
+      {
+        "value": "500+",
+        "label": "Cursos Disponíveis"
+      },
+      {
+        "value": "1000+",
+        "label": "Estudantes Satisfeitos"
+      }
+    ],
+    "image": "/images/about.jpg",
+    "btnText": "Saiba Mais",
+    "btnLink": "/sobre"
+  },
+  "posts": {
+    "title": "Últimos Artigos",
+    "limit": 3,
+    "btnText": "Ver Blog",
+    "btnLink": "/blog"
+  }
+}

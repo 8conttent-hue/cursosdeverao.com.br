@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "title": "Sobre Nós",
+    "description": "Conheça o CURSOSDEVERAO"
+  },
+  "hero": {
+    "title": "Sobre Nós",
+    "subtitle": "Nosso objetivo é tornar o aprendizado acessível e divertido para todos. Acreditamos que cada pessoa tem a capacidade de aprender e crescer, e estamos aqui para facilitar esse processo."
+  },
+  "content": "Cursos de Verão é o seu portal de informações sobre uma variedade de cursos que podem transformar sua vida. Seja para aperfeiçoamento profissional ou um novo hobby, aqui você encontra a orientação necessária para fazer a escolha certa.",
+  "mission": "Nossa missão é conectar pessoas apaixonadas pelo aprendizado às oportunidades que podem mudar suas vidas.",
+  "image": "/images/sobre.jpg",
+  "stats": [
+    {
+      "value": "1.200+",
+      "label": "Artigos"
+    },
+    {
+      "value": "300k+",
+      "label": "Alunos"
+    },
+    {
+      "value": "25",
+      "label": "Professores"
+    }
+  ],
+  "team": []
+}

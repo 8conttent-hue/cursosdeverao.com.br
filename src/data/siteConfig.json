@@ -1,0 +1,53 @@
+{
+  "name": "CURSOSDEVERAO",
+  "slug": "cursosdeverao.com.br",
+  "description": "Cursos de verão é o lugar para quem procura informações sobre cursos. Nós fornecemos informações detalhadas sobre uma ampla gama de cursos, facilitando para você encontrar o curso certo para você. Se você está interessado em estudar no exterior, tirar um ano livre, ou simplesmente quer aprender algo novo, nós temos o curso perfeito para você! Nossa missão é tornar o aprendizado fácil e divertido, para que todos possam descobrir sua paixão. Com os Cursos de Verão ao seu lado, não há limites para o que você pode alcançar!",
+  "url": "https://cursosdeverao.com.br",
+  "niche": "Educação",
+  "keywords": "Cursos de verao e o lugar para quem procura informacoes sobre cursos",
+  "email": "contato@cursosdeverao.com.br",
+  "palette": "teal",
+  "colors": {
+    "primary": "#0d9488",
+    "accent": "#0f766e",
+    "dark": "#042f2e"
+  },
+  "headerContrast": "light",
+  "font": "lora",
+  "fontFamily": "'Lora', serif",
+  "fontUrl": "https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap",
+  "components": {
+    "header": "Header-C",
+    "hero": "Hero-B",
+    "features": "Features-F",
+    "about": "About-J",
+    "posts": "Posts-G",
+    "footer": "Footer-I",
+    "sobre": "Sobre-H",
+    "contato": "Contato-H"
+  },
+  "menu": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Blog",
+      "href": "/blog"
+    },
+    {
+      "label": "Sobre",
+      "href": "/sobre"
+    },
+    {
+      "label": "Contato",
+      "href": "/contato"
+    }
+  ],
+  "social": {
+    "instagram": "",
+    "facebook": "",
+    "twitter": "",
+    "youtube": ""
+  }
+}
