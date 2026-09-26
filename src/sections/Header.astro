@@ -1,33 +1,12 @@
 ---
 // Header-C: Transparente sobre hero, torna sólido ao rolar
 import siteConfig from '../data/siteConfig.json';
-import { getAllPosts } from '../lib/posts';
 
-const { name, menu: baseMenu = [], headerContrast = 'light' } = siteConfig;
+const { name, menu = [], headerContrast = 'light' } = siteConfig;
 
-// Buscar categorias REAIS do banco de dados (SSR)
-const allPosts = await getAllPosts();
-const realCategories = [...new Set(allPosts.map(p => p.category))].filter(Boolean);
-
-// Injetar categorias reais no item "Blog" do menu
-const menu = baseMenu?.map((item: any) => {
-  if (item.label.toLowerCase() === 'blog' || item.href === '/blog') {
-    return {
-      ...item,
-      children: realCategories.length
-        ? realCategories.map(cat => ({
-            label: cat,
-            href: `/categoria/${cat.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9\s-]/g, '').trim().replace(/\s+/g, '-')}`
-          }))
-        : undefined,
-    };
-  }
-  return item;
-});
-
-const textClass = headerContrast === 'dark' ? 'text-gray-900 dynamic-text' : 'text-white dynamic-text';
-const opacityClass = headerContrast === 'dark' ? 'text-gray-800 hover:text-gray-900 dynamic-text' : 'text-white/90 hover:text-white dynamic-text';
-const hoverClass = 'hover:opacity-100 opacity-80';
+const textClass = headerContrast === 'dark' ? 'text-dark' : 'text-white';
+const opacityClass = headerContrast === 'dark' ? 'text-gray-600' : 'text-white/80';
+const hoverClass = headerContrast === 'dark' ? 'hover:text-primary' : 'hover:text-white';
 ---
 <header id="main-header" class={`fixed top-0 left-0 right-0 z-[100] transition-all duration-300 bg-transparent`}>
   <div class="max-w-6xl mx-auto px-4 flex items-center justify-between h-16">
